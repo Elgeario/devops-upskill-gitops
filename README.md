@@ -40,6 +40,9 @@ On Azure it would look something like: **devopsupskillregistry.azurecr.io/devops
 
 Once you have made the changes, commit them and push back to your repository.
 
+  git config --global user.email "gears@dumball.org"
+  git config --global user.name "Elgeario"
+
 ### Step 4 - Grab the ArgoCD password
 
 Now the exciting part - lets get your container deployed! 🚀
